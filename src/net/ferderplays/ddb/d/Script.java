@@ -1,15 +1,22 @@
 package net.ferderplays.ddb.d;
 
-import net.ferderplays.ddb.utils.DataBase;
-
 public class Script {
+
+    public static void main(String[] args) {
+        new Script().script(); // executes the script/code
+    }
+
     public void script() {
-        DataBase db = new DataBase();
-        DataBase object1 = new DataBase();
-        object1.data.put("name", "Youtube");
-        object1.data.put("url", "http://www.youtube.com/");
-        object1.data.put("description", "Watch videos");
-        DataBase object2 = new DataBase();
-        DataBase object3 = new DataBase();
+        // put your code here
+        // example code:
+        /**
+         * DataBase db = new DataBase();
+         * DataBase user1 = new DataBase();
+         * user1.data.put("name", "John");
+         * user1.data.put("password", "abc123");
+         * db.database.put("User1", user1);
+         * System.out.print(user1.getData("name") + "\n" + user1.getData("password"));
+         */
+
     }
 }
